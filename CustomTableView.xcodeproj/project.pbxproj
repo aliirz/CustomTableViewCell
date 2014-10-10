@@ -13,6 +13,11 @@
 		846E3F4E19E324DD009DB485 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846E3F4D19E324DD009DB485 /* Images.xcassets */; };
 		846E3F5119E324DD009DB485 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846E3F4F19E324DD009DB485 /* LaunchScreen.xib */; };
 		846E3F5D19E324DD009DB485 /* CustomTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E3F5C19E324DD009DB485 /* CustomTableViewTests.swift */; };
+		846E3F6719E3295E009DB485 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E3F6619E3295E009DB485 /* CustomTableViewCell.swift */; };
+		846E3F6919E4408D009DB485 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E3F6819E4408D009DB485 /* Person.swift */; };
+		846E3F6E19E44C08009DB485 /* Anna.png in Resources */ = {isa = PBXBuildFile; fileRef = 846E3F6B19E44C08009DB485 /* Anna.png */; };
+		846E3F6F19E44C08009DB485 /* Kayla.png in Resources */ = {isa = PBXBuildFile; fileRef = 846E3F6C19E44C08009DB485 /* Kayla.png */; };
+		846E3F7119E44FD7009DB485 /* Heather.png in Resources */ = {isa = PBXBuildFile; fileRef = 846E3F7019E44FD7009DB485 /* Heather.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		846E3F5619E324DD009DB485 /* CustomTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846E3F5B19E324DD009DB485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		846E3F5C19E324DD009DB485 /* CustomTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewTests.swift; sourceTree = "<group>"; };
+		846E3F6619E3295E009DB485 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		846E3F6819E4408D009DB485 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		846E3F6B19E44C08009DB485 /* Anna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Anna.png; sourceTree = "<group>"; };
+		846E3F6C19E44C08009DB485 /* Kayla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kayla.png; sourceTree = "<group>"; };
+		846E3F7019E44FD7009DB485 /* Heather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heather.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +90,12 @@
 				846E3F4619E324DD009DB485 /* AppDelegate.swift */,
 				846E3F4819E324DD009DB485 /* ViewController.swift */,
 				846E3F4A19E324DD009DB485 /* Main.storyboard */,
+				846E3F6819E4408D009DB485 /* Person.swift */,
+				846E3F6619E3295E009DB485 /* CustomTableViewCell.swift */,
 				846E3F4D19E324DD009DB485 /* Images.xcassets */,
+				846E3F6B19E44C08009DB485 /* Anna.png */,
+				846E3F6C19E44C08009DB485 /* Kayla.png */,
+				846E3F7019E44FD7009DB485 /* Heather.png */,
 				846E3F4F19E324DD009DB485 /* LaunchScreen.xib */,
 				846E3F4419E324DD009DB485 /* Supporting Files */,
 			);
@@ -195,6 +210,9 @@
 				846E3F4C19E324DD009DB485 /* Main.storyboard in Resources */,
 				846E3F5119E324DD009DB485 /* LaunchScreen.xib in Resources */,
 				846E3F4E19E324DD009DB485 /* Images.xcassets in Resources */,
+				846E3F7119E44FD7009DB485 /* Heather.png in Resources */,
+				846E3F6E19E44C08009DB485 /* Anna.png in Resources */,
+				846E3F6F19E44C08009DB485 /* Kayla.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846E3F6719E3295E009DB485 /* CustomTableViewCell.swift in Sources */,
 				846E3F4919E324DD009DB485 /* ViewController.swift in Sources */,
+				846E3F6919E4408D009DB485 /* Person.swift in Sources */,
 				846E3F4719E324DD009DB485 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +425,7 @@
 				846E3F6219E324DD009DB485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846E3F6319E324DD009DB485 /* Build configuration list for PBXNativeTarget "CustomTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +434,7 @@
 				846E3F6519E324DD009DB485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
